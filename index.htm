@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="_css/style.css" />
+    <title>Boder-radius Previewer</title>
+  </head>
+  <body>
+    <header class="container header">
+      <h2>Border-Radius Previewer</h2>
+    </header>
+
+    <section class="container main">
+      <aside>
+        <div id="cdados">
+          <list class="params">
+            <h3>Params(Pixels)</h3>
+            <ul>
+              <li>
+                <label>Top left</label
+                ><input type="text" name="fradius" id="radiusTL" />
+              </li>
+              <li>
+                <label>Top right</label>
+                <input type="text" name="fradius" id="radiusTR" />
+              </li>
+              <li>
+                <label>Bottom left</label
+                ><input type="text" name="fradius" id="radiusBL" />
+              </li>
+              <li>
+                <label>Bottom right</label
+                ><input type="text" name="fradius" id="radiusBR" />
+              </li>
+              <li>
+                <label>All</label
+                ><input type="text" name="fradius" id="radiusALL" />
+              </li>
+            </ul>
+          </list>
+          <button onclick="preview()">Preview</button>
+          <button onclick="clearAll()">Clear</button>
+        </div>
+      </aside>
+
+      <div id="res"></div>
+    </section>
+    <script src="_javascript/index.js"></script>
+  </body>
+</html>
